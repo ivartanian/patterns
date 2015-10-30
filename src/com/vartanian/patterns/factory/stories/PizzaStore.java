@@ -11,6 +11,10 @@ public abstract class PizzaStore {
 
         Pizza pizza = createPizza(type);
 
+        if (pizza == null){
+            return null;
+        }
+
         pizza.prepare();
         pizza.bake();
         pizza.cut();
