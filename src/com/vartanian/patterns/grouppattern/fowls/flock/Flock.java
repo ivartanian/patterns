@@ -39,11 +39,11 @@ public class Flock implements Quackable {
 
     @Override
     public void notifyObservers() {
-        Iterator<Quackable> iterator = quackables.iterator();
-        while (iterator.hasNext()){
-            Quackable next = iterator.next();
-            next.notifyObservers();
-        }
+//        Iterator<Quackable> iterator = quackables.iterator();
+//        while (iterator.hasNext()){
+//            Quackable next = iterator.next();
+//            next.notifyObservers();
+//        }
 
     }
 }
